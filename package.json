@@ -1,0 +1,26 @@
+{
+  "name": "emscripten-loader",
+  "version": "0.0.1",
+  "description": "Use emscripten to build a c/cpp file into a module. This is a horrible hack. Once webpack introduces built in support you should no longer use this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiantBlargg/emscripten-loader.git"
+  },
+  "keywords": [
+    "emscripten",
+    "webpack"
+  ],
+  "author": "GiantBlargg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiantBlargg/emscripten-loader/issues"
+  },
+  "homepage": "https://github.com/GiantBlargg/emscripten-loader#readme",
+  "dependencies": {
+    "tmp": "0.0.33"
+  }
+}
